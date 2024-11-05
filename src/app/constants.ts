@@ -1,0 +1,1 @@
+export const trainImageSrc = "https://thumbs.dreamstime.com/b/epic-old-train-steam-effects-ai-generated-content-design-background-instagram-facebook-wall-painting-wallpaper-323515965.jpg";

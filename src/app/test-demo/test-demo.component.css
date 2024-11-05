@@ -1,0 +1,49 @@
+#number-wrapper {
+    background-color: gray;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: fit-content;
+}
+
+.num {
+    border-radius: 20px;
+    margin: 5px;
+    color: black;
+    text-align: center;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.red {
+    background-color: red;
+}
+
+
+
+.wrapper {
+    width: 300px;
+    height: 10px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+
+.random-red {
+    border: 3px solid red;
+    border-radius: 50px;
+}
+
+.random-green {
+    border: 3px solid rgb(25, 180, 61);
+    border-radius: 50px;
+}
+
+.border-blink {
+    border: 2px solid purple;
+    border-radius: 20px;
+    margin: 10px 0;
+}

@@ -1,0 +1,33 @@
+<div [class]="randomMsg">This is random message</div>
+<div class="wrapper">
+    <button (click)="togleModal($event)" [style.border]="isShown ? '2px solid green' : '2px solid blue' ">Togle
+        Modal</button>
+</div>
+
+<!-- <div id="number-wrapper">
+    @for (n of numbers; track $index) {
+    @if(n % 2 === 0 ){
+    <div class="num blue">
+        This shuld be blue line: {{n}}
+    </div>
+    }@else if(n === 5){
+    <div class="num">
+        This shuld have no color: {{n}}
+    </div>
+    }@else {
+    <div class="num red">
+        This shuld be red: {{n}}
+    </div>
+    }
+    }
+</div> -->
+<div id="number-wrapper">
+    @for (n of numbers; track $index) {
+    <div [class.blue]="n % 2 === 0" [class.red]="n % 2 !== 0" [class.border-blink]="isShown">
+        {{n}}
+    </div>
+    }
+</div>
+@if(isShown){
+<app-popup />
+}
